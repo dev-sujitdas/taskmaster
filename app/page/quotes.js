@@ -1,0 +1,43 @@
+const quotes = [
+  "The best way to get started is to quit talking and begin doing.",
+  "The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty.",
+  "Don’t let yesterday take up too much of today.",
+  "You learn more from failure than from success. Don’t let it stop you. Failure builds character.",
+  "It’s not whether you get knocked down, it’s whether you get up.",
+  "People who are crazy enough to think they can change the world, are the ones who do.",
+  "We may encounter many defeats but we must not be defeated.",
+  "The only limit to our realization of tomorrow is our doubts of today.",
+  "The best way to get started is to quit talking and begin doing.",
+  "The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty.",
+  "Don’t let yesterday take up too much of today.",
+  "You learn more from failure than from success. Don’t let it stop you. Failure builds character.",
+  "It’s not whether you get knocked down, it’s whether you get up.",
+  "People who are crazy enough to think they can change the world, are the ones who do.",
+  "We may encounter many defeats but we must not be defeated.",
+  "The only limit to our realization of tomorrow is our doubts of today.",
+  "Act as if what you do makes a difference. It does.",
+  "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+  "Never bend your head. Always hold it high. Look the world straight in the eye.",
+  "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+  "Believe you can and you're halfway there.",
+  "When you have a dream, you've got to grab it and never let go.",
+  "I can’t change the direction of the wind, but I can adjust my sails to always reach my destination.",
+  "No matter what you’re going through, there’s a light at the end of the tunnel.",
+  "It is our attitude at the beginning of a difficult task which, more than anything else, will affect its successful outcome.",
+  "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+  "You are never too old to set another goal or to dream a new dream.",
+  "Everything you’ve ever wanted is on the other side of fear.",
+  "The only way to do great work is to love what you do.",
+  "Start where you are. Use what you have. Do what you can.",
+  "Your time is limited, don’t waste it living someone else’s life.",
+  "Do what you can with all you have, wherever you are.",
+  "You don’t have to be great to start, but you have to start to be great.",
+  "Failure will never overtake me if my determination to succeed is strong enough.",
+  "Knowing is not enough; we must apply. Wishing is not enough; we must do.",
+  "We generate fears while we sit. We overcome them by action.",
+];
+
+export const getRandomQuotes = () => {
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  return quotes[randomIndex];
+};
